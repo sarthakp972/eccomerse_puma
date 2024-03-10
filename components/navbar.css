@@ -1,0 +1,17 @@
+
+#nav_text{
+   
+        font-size: 14px;
+        line-height: 1.428; 
+        
+   
+            --tw-text-opacity: 1;
+            color: rgba(255, 255, 255, var(--tw-text-opacity));
+        
+}
+.nav1{
+background-color: rgba(138, 115, 80);
+}
+.after_navbar{
+    background-color:rgba(90, 82, 36);
+}
