@@ -34,7 +34,7 @@
 <!-- nav1 End -->
 <!-- /////////////////////////////////////////////////////////////////////////////// -->
 <!-- nav2  start -->
-<nav class="navbar navbar-expand-lg bg-dark ">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
   <div class="container-fluid">
   <a class="navbar-brand logo  d-flex justify-content-center align-self-center" href="#">
       <img src="components\nav_img\puma_(1).png" alt="Puma_logo" width="60" height="70">
@@ -68,15 +68,32 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success me-2" type="submit">Search</button>
 
-
-        <a class="navbar-brand" href="#">
-      <img src="components\nav_img\user.png" alt="cart"  width="45" height="36">
-    </a>
-
-    <a class="navbar-brand" href="#">
-      <img src="components\cart1.png" alt="profile" width="50" height="40">
-    </a>
+<!--  -->
+<div class="dropdown">
+  <div  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <img src="components\nav_img\user.png" alt="cart"  width="45" height="36">
+  </div>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Acount</a></li>
+    <li>  <button type="button" class="btn "><a class="dropdown-item" href="#">Login</a></button></li>
   
+    <li>  <button type="button" class="btn "><a class="dropdown-item" href="#">SingUp</a></button></li>
+  </ul>
+</div>
+ 
+    <!--  -->
+
+ <div class="dropdown">
+  <div  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <img src="components\cart1.png" alt="profile" width="45" height="36" class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  </div>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+  <!--  -->
       </form>
     </div>
   </div>

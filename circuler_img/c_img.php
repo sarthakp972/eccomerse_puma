@@ -23,6 +23,21 @@
       display: block;
       background-size: cover
     }
+    .background-image {
+    background-image: url('https://img.freepik.com/free-photo/sports-shoe-competition-abstract-multi-color-background-generated-by-ai_188544-19600.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709942400&semt=sph');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center top;   */
+    width: 100vw; /* 100% of viewport width */
+    height: 75vh; /* 100% of viewport height */
+}
+
+@media screen and (max-width: 600px) {
+    .background-image {
+        height: 50vh; /* Adjust height for small devices */
+    }
+}
+
 
     @media (max-width: 576px) {
       /* For smaller screens, make each circular frame occupy 100% width */
@@ -30,6 +45,11 @@
         width: 100%;
         margin: 10px 0; /* Adjust the margin for smaller screens */
       }
+    }
+    .card {
+      background: transparent;
+      border: none;
+      margin-top: 15vh; /* Adjust the top margin to center vertically */
     }
   </style>
 </head>
@@ -73,31 +93,28 @@
 </div>
 
 <!-- Bootstrap JS (optional) -->
+<div class="background-image">
+<div class="background-image d-flex justify-content-center align-items-center">
+    <div class="card text-center">
+      <div class="card-body">
+        <h1 class="card-title text-light">PUMA x HARRDY SANDHU</h1>
+        <h5 class="card-text text-warning">STYLE. OK. PLEASE.</h5>
+        <a href="#" class="btn btn-dark">SHOP COLLECTION</a>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
-<!-- 
-     <style>
-     .background-image {
-    background-image: url('https://img.freepik.com/free-photo/sports-shoe-competition-abstract-multi-color-background-generated-by-ai_188544-19600.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709942400&semt=sph');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100vw; /* 100% of viewport width */
-    height: 100vh; /* 100% of viewport height */
-}
 
-  </style>
-</head>
-<body>
+
+    
+    
 
 
 
-<div class="background-image"></div>
 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
 
- -->
+
+
